@@ -12,12 +12,11 @@ The chat room can support:\<br />
 	8.A txt that have all usernames<br />
 	9.Very simple GUI<br />
 
-The chat room does not support:
+The chat room does not support:<br />
 	1.password Login <br />
 	// I forget to implement password at the first place. When I realized that I have to associate username with password,
 	   I knew I used wrong data structure. I should have use map instead of ArrayList to store usernames. I could also
 	   create a 'User' object that has password field in it and put in my ArrayList but most of the code had to be rewrite.
-	   
 	2.send message to specific user<br />
 	// Each thread has a PrinterWriter and all of them have the same variable name "out" and they are stored in one ArrayList,I don't know how to pull out one specific thread and let its writer to push message onto one user's screen.
 
