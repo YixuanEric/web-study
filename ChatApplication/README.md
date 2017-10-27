@@ -1,7 +1,7 @@
 This is a ChatRoom Application that can support multiple clients to chat at the same time.  
 This project is to practice socket programming with Java.  
 
-The chat room can support:\<br />
+The chat room can support:<br />
 	1.Unique Username Login(no password)<br />
 	2.Send Anonymous message<br />
 	3.List All Users<br />
