@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Rock,Paper,Scissors</title>
+<link rel="stylesheet" type="text/css" href = "./custom.css">
+<script src="./custom.js"></script>
+</head>
+<body>
+  <div>
+<div class = "title">
+  <center><p>Rock,Paper,Scissors</p></center>
+</div>
+<div onclick ="restart()" class = "restart">
+  <p>RESTART</p>
+</div>
+<div onclick ="stop()" class = "stop">
+  <p>END</p>
+</div>
+<div class ="rounds">
+  <p>Round</p>
+  <span>WIN</span><p id ="win">0</p>
+  <span>LOSE</span><p id ="lose">0</p>
+  <span>TOTAL</span><p id ="total">0</p>
+</div>
+  <div class ="gameWindow">
+  <div class = "placeholder" >
+    <img id ="bot" src = "rock.png">
+  </div>
+
+  <div class ="banner">
+    <p id ="result">VS</p>
+  </div>
+
+  <div class ="placeholder" >
+    <img id ="player" src = "rock.png">
+  </div>
+  <div class = "options">
+    <div class="op">
+      <img onclick = fight('rock') src="rock.png">
+    </div>
+    <div class="op">
+      <img onclick = fight('paper') src="paper.png">
+    </div>
+    <div class="op">
+      <img onclick = fight('scissors') src="scissors.png">
+    </div>
+  </div>
+</div>
+<div class ="copyright" style="float:right;"><span>Yixuan Wang</span></div>
+</div>
+</body>
+</html>
