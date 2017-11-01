@@ -1,5 +1,5 @@
-<h2>This is a ChatRoom Application that can support multiple clients to chat at the same time. <h2>
-<h3>This project is to practice socket programming with Java. <h3>
+<h2>This is a ChatRoom Application that can support multiple clients to chat at the same time. </h2>
+<h3>This project is to practice socket programming with Java. </h3>
 
 The chat room can support:<br />
 	1.Unique Username Login(no password)<br />
