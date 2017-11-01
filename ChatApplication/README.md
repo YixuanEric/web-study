@@ -21,9 +21,14 @@
 	// Each thread has a PrinterWriter and all of them have the same variable name "out" and they are stored in one ArrayList,I don't know how to pull out one specific thread and let its writer to push message onto one user's screen.
 
 	
-About Error Handling:<br />
-	1.The IP address prompt will keep asking for correct address if address is wrong.<br />
-	2.The Username prompt will keep asking for username if nothing is typed in or username existed.
+<b>About Error Handling:</b><br />
+	1.The IP address prompt will keep asking for address if random stuff is input, but if an server address is input and the server is not on, the client will go time out. This is because the input does not went into UnknownHostException.<br />
+	2.The Username prompt will keep asking for username if nothing is typed in or username existed.<br />
+
+<b>Limits:</b><br />
+	1.When the server restart, client can register using an existed username, this is because the arraylist in the ChatServer.java is empty again.
+
+
 	
 	   
 	
