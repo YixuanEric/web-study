@@ -1,7 +1,7 @@
 <h2>This is a ChatRoom Application that can support multiple clients to chat at the same time. </h2>
 <h3>This project is to practice socket programming with Java. </h3>
 
-The chat room can support:<br />
+<b>The chat room can support:</b><br />
 	1.Unique Username Login(no password)<br />
 	2.Send Anonymous message<br />
 	3.List All Users<br />
@@ -12,7 +12,7 @@ The chat room can support:<br />
 	8.A txt that have all usernames<br />
 	9.Very simple GUI<br />
 
-The chat room does not support:<br />
+<b>The chat room does not support:</b><br />
 	1.password Login <br />
 	// I forget to implement password at the first place. When I realized that I have to associate username with password,
 	   I knew I used wrong data structure. I should have use map instead of ArrayList to store usernames. I could also
