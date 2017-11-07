@@ -1,0 +1,100 @@
+body{
+  background-color:#f4f6f9;
+}
+body p{
+  font-family: Courier;
+}
+div{
+  border-radius: 1vw;
+  text-align: center;
+}
+canvas{
+  width:100%;
+  height:100%;
+  margin:0;
+}
+.logo{
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+  line-height: 0;
+}
+.info{
+  position: absolute;
+  margin-left: 30%;
+  margin-top:9vw;
+  background-color:#f4f6f9;
+  width: 40%;
+}
+.info p{
+  font-size: 1.8vw;
+}
+.gameWindow{
+  margin: 0 auto;
+  width:50%;
+  height:30%;
+  background-color:#d9e1ec;
+}
+.attempt{
+  position: absolute;
+  margin-left: 60%;
+  margin-top:1%;
+  background-color:#f4f6f9;
+  width: 10%;
+}
+.attempt p{
+  line-height: 0;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.wordWindow{
+  margin:0 auto;
+  width:40%;
+  padding:0;
+  height:3vw;
+}
+
+.wordWindow p{
+  display: inline-block;
+  padding:0;
+  font-size: 1.8vw;
+  font-weight: bold;
+  margin-right: 1.8vw;
+  text-decoration: underline;
+}
+.keys{
+  margin: 0 auto;
+  margin-top: 1vw;
+  width:55%;
+  background-color:#d9e1ec;
+}
+.keys a{
+  display: inline-block;
+  text-decoration: none;
+  font-family: Courier;
+  width: 4vw;
+  border-radius: 1vw;
+  font-size: 3vw;
+  margin:0.8vw;
+  background-color: #b4c3d8;
+  transition:all 0.2s ease 0s;
+  color:black;
+}
+.keys a:hover{
+  transform:scale(1.25);
+  background-color: #4c6a92;
+  cursor: default;
+}
+.button{
+  margin:0 auto;
+  background-color: #b4c3d8;
+  width:5vw;
+  transition:all 0.2s ease 0s;
+}
+.button:hover{
+  transform:scale(1.25);
+  background-color: #4c6a92;
+  cursor: default;
+}
