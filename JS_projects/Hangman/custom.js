@@ -1,4 +1,6 @@
-var dict = ["alabama", "alaska", "arizona", "indiana", "ohio", "new york"];
+var dict = ["alabama", "alaska", "arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota"
+,"mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakato","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","southdakota","tennessee","texas",
+"utah","vermont","virginia","washington","west virginia","wisconsin","wyoming"];
 
 function create_newword(){
   var a = dict[Math.floor(Math.random() * dict.length)];
