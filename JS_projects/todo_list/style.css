@@ -1,0 +1,128 @@
+body {
+  font-family: Helvetica;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 3em;
+  width: 40%;
+  min-width: 25em;
+  background: rgb(142, 11, 66);
+  overflow: hidden;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.logo {
+  padding: 0.2em;
+  padding-left: 2em;
+  height: 5em;
+}
+
+.logo p {
+  margin-top: -2em;
+  text-align: right;
+  margin-right: 2em;
+}
+
+.task {
+  background: #f3f3f3;
+  color: black;
+  min-height: 10em;
+  padding-left: 1em;
+}
+
+.addbox {
+  height: 6em;
+  padding: 1em;
+  padding-left: 1.2em;
+  padding-bottom: 0;
+}
+
+form button {
+  margin-left: 0.5em;
+  font-size: 1.2em;
+  background: rgb(142, 11, 66);
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+}
+
+form button:hover {
+  background: white;
+  color: rgb(142, 11, 66);
+  cursor: pointer;
+}
+
+.task ul {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.item {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  margin-bottom: 1vw;
+  box-shadow: 5px 3px 3px #888888;
+}
+.item button{
+  font-size: 1em;
+  background: rgb(142, 11, 66);
+  border: solid 1px white;
+  color: white;
+}
+.item:hover{
+  background:white;
+  color: rgb(142, 11, 66);
+}
+
+.item button:hover{
+  background:white;
+  color: rgb(142, 11, 66);
+  border: solid 1px rgb(142, 11, 66);
+}
+
+.modal {
+  position: absolute;
+  z-index: 1;
+  margin-top: 2em;
+  margin-left: 33%;
+  height: 20em;
+  width: 30%;
+  max-width: 25em;
+  min-width: 15em;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1em;
+  display: none;
+}
+
+.modal input {
+  width: 80%;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.modal label {
+  display: block;
+  width: 3em;
+}
+
+.modal button {
+  font-size: 1em;
+  margin-left: 80%;
+}
+
+.copyright{
+  z-index: -1;
+  text-align: center;
+  color: black;
+  position:absolute;
+  bottom: 0;
+  left:88%;
+  text-align: center;
+  font-size: 0.5em;
+}
