@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TODO</title>
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <div class="box" id='app'>
+    <input type="text" v-model="userInput">
+    <button v-on:click="addTodo">Add Todo</button>
+
+    <ul>
+      <li v-for="todo in todos" v-on:click="removeTodo(todo)">{{ todo.value }}</li>
+    </ul>
+  </div>
+  <script src="custom.js"></script>
+</body>
+
+</html>
