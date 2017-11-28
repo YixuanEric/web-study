@@ -22,6 +22,10 @@ function apple() {
   var date = document.getElementById('date').value;
   var time = document.getElementById('time').value;
   var thing = document.getElementById('event').value;
+  if(date==""||time==""||thing==""){
+    return;
+  }
+  else{
   console.log(date);
   console.log(time);
   console.log(thing);
@@ -46,6 +50,7 @@ function apple() {
   list.appendChild(item);
 
   modal.style.display = "none";
+}
 }
 
 function finished() {
