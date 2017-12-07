@@ -1,3 +1,6 @@
+12/7
+At first I tried to use lazyload to imporve the page but then I found I should use preload since it is a game not a article. 
+
 12/6
 Now the game is playable. The player first choose an animal class.If the player get the animals' names right for 5 times, the player can move on to another animal class.But because it is a small-scale project, some of its random events are not truly random and can
 be considered as hard coded.
