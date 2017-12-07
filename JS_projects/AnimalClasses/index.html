@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
+
   </head>
   <body>
     <div class ="navbar">
@@ -21,8 +22,9 @@
         <a id ="start" href="#">PLAY</a>
       </div>
       <div class="choice">
+      <h1 id="win">You are right for 5 times! Try another class!</h1>
       <h1>Select an Animal Class</h1>
-      <ul>
+      <ul id ="classes">
         <li><a href="#">mammals</a></li>
         <li><a href="#">birds</a></li>
         <li><a href="#">fishes</a></li>
@@ -31,16 +33,21 @@
         <li><a href="#">invertebrates</a></li>
       </ul>
     </div>
+    <div class="guess">
+      <h1> This is a </h1>
+      <ul id="names">
+      </ul>
   </div>
+</div>
+
     <div class="main">
-      <img class="lazyload" src="image/tiger.jpg" alt="tiger">
-      <img class="lazyload" src="image/elephant.jpg" alt="elephant">
-      <img class="lazyload" src="image/chimp.jpg" alt="chimp">
-      <img class="lazyload" src="image/croc.jpg" alt="croc">
-      <img class="lazyload" src="image/hawk.jpg" alt="hawk">
-      <img class="lazyload" src="image/lizard.jpg" alt="lizard">
-      <img class="lazyload" src="image/snail.jpg" alt="snail">
-      <img class="lazyload" src="image/sardine.jpg" alt="sardine">
+      <img class="lazyload" data-src="image/tiger.jpg" alt="tiger">
+      <img class="lazyload" data-src="image/chimp.jpg" alt="chimp">
+      <img class="lazyload" data-src="image/crocodile.jpg" alt="croc">
+      <img class="lazyload" data-src="image/hawk.jpg" alt="hawk">
+      <img class="lazyload" data-src="image/lizard.jpg" alt="lizard">
+      <img class="lazyload" data-src="image/snail.jpg" alt="snail">
+      <img class="lazyload" data-src="image/sardine.jpg" alt="sardine">
     </div>
   </div>
   <div class ="footbar">

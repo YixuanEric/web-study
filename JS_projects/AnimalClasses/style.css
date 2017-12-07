@@ -88,11 +88,30 @@ h1{
   font-size: 2vw;
 }
 
+.guess{
+  display:none;
+  margin-top: 10em;
+}
+
+.guess ul{
+  list-style: none;
+}
+.guess li{
+  border-radius: 1vw;
+  background:#f2f2f2;
+  margin-bottom: 1em;
+  max-width:13vw;
+}
+
+.guess a{
+  text-decoration: none;
+  color:black;
+  font-size: 2vw;
+}
 .start{
   margin: 18em 2em;
   background-color: #f2f2f2;
   border-radius: 1vw;
-
 }
 
 .start a{
