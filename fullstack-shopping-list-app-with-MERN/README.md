@@ -1,2 +1,3 @@
 # DEMO
-<a href="https://dashboard.heroku.com/apps/react-shopping-list-yixuan">Link</a>
+## needs redux dev tool
+<a href="https://react-shopping-list-yixuan.herokuapp.com/">Link</a>
