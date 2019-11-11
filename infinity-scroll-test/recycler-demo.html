@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      #scroll-view {
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 620px;
+        height: 100vh;
+        box-sizing: border-box;
+        border: 1px solid black;
+        position: relative;
+      }
+      .infinity-scroll-item {
+        background: #f3f3f3;
+        margin: 10px auto;
+        text-align: center;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="scroll-view"></div>
+    </div>
+    <script src="InfinityScroll.js"></script>
+    <script src="recycler-demo.js"></script>
+  </body>
+</html>
